@@ -1,0 +1,1 @@
+ipconfig | findstr IPv4 | findstr /V /E 1 | findstr/V /C:"   A" & ipconfig | findstr /C:"    "
